@@ -1,0 +1,29 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "firstName": "Nicholas",
+      "lastName": "Truesdale"
+    }
+  ],
+  "companies": [
+    {
+      "id": "toumetis",
+      "name": "Toumetis"
+    }
+  ],
+  "me": {
+    "personId": 1,
+    "email": "truesdalen@gmail.com",
+    "phone": "07397309330"
+  },
+  "jobs": [
+    {
+      "companyId": "toumetis",
+      "title": "Senior Software Developer",
+      "startDate": "2017-04-04",
+      "endDate": "",
+      "description": ""
+    }
+  ]
+}

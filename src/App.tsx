@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { createStyles, withStyles, WithStyles, Theme } from '@material-ui/core';
 
-const App: React.FC = () => {
+import { Route, Redirect, Switch } from 'react-router-dom';
+
+import Home from './components/Home/Home';
+import Resume from './components/Resume/Resume';
+
+const styles = (theme: Theme) => createStyles({
+  root: {
+    textAlign: 'center',
+    backgroundColor: theme.palette.background.default,
+    color: theme.palette.primary.main
+  }
+});
+
+interface Props extends WithStyles<typeof styles> {};
+
+const App: React.FC<Props> = (props) => {
+  const { classes } = props;
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.root}>
+      <Switch>
+        <Route path={'/home'} component={Home} />
+        <Route path={'/resume'} component={Resume} />
+
+        <Redirect exact from={'/'} to={'/home'} />
+        <Route render={() => <div>Route not found</div>} />
+      </Switch>
     </div>
   );
 }
 
-export default App;
+export default withStyles(styles)(App);
