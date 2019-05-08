@@ -1,29 +1,26 @@
 import React from 'react';
 
 import { createStyles, withStyles, Theme, WithStyles } from '@material-ui/core';
-import { Typography } from '@material-ui/core';
 
-import { Contact, Person } from '../../../models';
+import TravelMap from '../TravelMap/TravelMap';
 
 const styles = (theme: Theme) => createStyles({
   root: {
-
+    height: '100%'
   }
 });
 
 interface Props extends WithStyles<typeof styles> {
-  contact: Contact;
-  person: Person;
 }
 
-const Header: React.FC<Props> = props => {
+const Travel: React.FC<Props> = props => {
   const { classes } = props;
 
   return (
     <div className={classes.root}>
-      <Typography variant="h5">Nicholas Truesdale</Typography>
+      <TravelMap />
     </div>
   )
 };
 
-export default withStyles(styles)(Header);
+export default withStyles(styles)(Travel);

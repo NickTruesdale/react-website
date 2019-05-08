@@ -10,20 +10,117 @@
     {
       "id": "toumetis",
       "name": "Toumetis"
+    },
+    {
+      "id": "epic",
+      "name": "Epic"
+    },
+    {
+      "id": "bb7",
+      "name": "bb7"
     }
   ],
-  "me": {
-    "personId": 1,
-    "email": "truesdalen@gmail.com",
-    "phone": "07397309330"
-  },
-  "jobs": [
+  "schools": [
     {
-      "companyId": "toumetis",
-      "title": "Senior Software Developer",
-      "startDate": "2017-04-04",
-      "endDate": "",
-      "description": ""
+      "id": "cu",
+      "name": "University of Colorado - Boulder"
     }
-  ]
+  ],
+
+
+  
+  "personal": {
+    "contact": {
+      "personId": 1,
+      "email": "truesdalen@gmail.com",
+      "phone": "+44 7397 309330",
+      "address1": "19 Chandlers House",
+      "address2": "Bristol, BS1 6WD, UK"
+    }
+  },
+  "summary": {
+    "p1": "My passion is creating electronics and software that tackles tough problems. I have experience spanning hardware, firmware and software design, making me a flexible engineer and a valuable resource on small teams.",
+    "p2": "I am seeking an exciting company in Bristol where I can continue to design software systems and make an impact with my unique skillset. My primary goals are to continue to learn, have fun and write elegant code."
+  },
+  "education": {
+    "focus": "Astrodynamics and Spacecraft Navigation",
+    "thesis": "Modular Power System Design for BRRISON",
+    "honors": "Magna Cum Laude, Engineering Honors Program",
+    "degrees": [
+      {
+        "schoolId": "cu",
+        "title": "Masters of Science",
+        "abbrev": "MS",
+        "subject": "Aerospace Engineering",
+        "startDate": "2012-08-27",
+        "endDate": "2013-12-20"
+      },
+      {
+        "schoolId": "cu",
+        "title": "Bachelors of Science",
+        "abbrev": "BS",
+        "subject": "Aerospace Engineering",
+        "startDate": "2008-08-25",
+        "endDate": "2012-05-11"
+      },
+      {
+        "schoolId": "cu",
+        "title": "Bachelors of Science",
+        "abbrev": "BS",
+        "subject": "Applied Mathematics",
+        "startDate": "2008-08-25",
+        "endDate": "2013-12-20"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "companyId": "toumetis",
+        "title": "Senior Software Developer",
+        "startDate": "2017-04-04",
+        "endDate": "",
+        "description": "Toumetis description here"
+      },
+      {
+        "companyId": "epic",
+        "title": "Software Developer",
+        "startDate": "2015-04-06",
+        "endDate": "2016-09-29",
+        "description": "Epic description here"
+      },
+      {
+        "companyId": "bb7",
+        "title": "Research Engineer - Software and Electronics",
+        "startDate": "2013-10-28",
+        "endDate": "2015-03-13",
+        "description": "bb7 description here"
+      }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Web",
+        "skills": [
+          { "name": "React" },
+          { "name": "Angular 2"}
+        ]
+      },
+      {
+        "name": "Data Analysis",
+        "skills": [
+          { "name": "Pandas" },
+          { "name": "Scikit Learn"}
+        ]
+      },
+      {
+        "name": "Firmware",
+        "skills": [
+          { "name": "Embedded C" },
+          { "name": "Arduino" }
+        ]
+      }
+    ] 
+  }
 }
