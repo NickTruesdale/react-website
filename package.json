@@ -10,8 +10,10 @@
     "@types/react": "16.8.16",
     "@types/react-dom": "16.8.4",
     "classnames": "^2.2.6",
+    "leaflet": "^1.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-leaflet": "^2.2.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
     "typescript": "3.4.5"
@@ -39,6 +41,8 @@
   },
   "devDependencies": {
     "@types/classnames": "^2.2.7",
+    "@types/leaflet": "^1.4.4",
+    "@types/react-leaflet": "^2.2.1",
     "@types/react-router-dom": "^4.3.3"
   }
 }
