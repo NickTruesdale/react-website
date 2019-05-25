@@ -1,37 +1,7 @@
 {
-  "people": [
-    {
-      "id": 1,
-      "firstName": "Nicholas",
-      "lastName": "Truesdale"
-    }
-  ],
-  "companies": [
-    {
-      "id": "toumetis",
-      "name": "Toumetis"
-    },
-    {
-      "id": "epic",
-      "name": "Epic"
-    },
-    {
-      "id": "bb7",
-      "name": "bb7"
-    }
-  ],
-  "schools": [
-    {
-      "id": "cu",
-      "name": "University of Colorado - Boulder"
-    }
-  ],
-
-
-  
   "personal": {
     "contact": {
-      "personId": 1,
+      "name": "Nicholas Truesdale",
       "email": "truesdalen@gmail.com",
       "phone": "+44 7397 309330",
       "address1": "19 Chandlers House",
@@ -46,55 +16,96 @@
     "focus": "Astrodynamics and Spacecraft Navigation",
     "thesis": "Modular Power System Design for BRRISON",
     "honors": "Magna Cum Laude, Engineering Honors Program",
-    "degrees": [
+    "schools": [
       {
-        "schoolId": "cu",
-        "title": "Masters of Science",
-        "abbrev": "MS",
-        "subject": "Aerospace Engineering",
-        "startDate": "2012-08-27",
-        "endDate": "2013-12-20"
-      },
-      {
-        "schoolId": "cu",
-        "title": "Bachelors of Science",
-        "abbrev": "BS",
-        "subject": "Aerospace Engineering",
-        "startDate": "2008-08-25",
-        "endDate": "2012-05-11"
-      },
-      {
-        "schoolId": "cu",
-        "title": "Bachelors of Science",
-        "abbrev": "BS",
-        "subject": "Applied Mathematics",
-        "startDate": "2008-08-25",
-        "endDate": "2013-12-20"
+        "id": "cu",
+        "name": "University of Colorado - Boulder",
+        "degrees": [
+          {
+            "id": "ms_aero",
+            "title": "Masters of Science",
+            "abbrev": "M.S.",
+            "subject": "Aerospace Engineering",
+            "startDate": "2012-08-27",
+            "endDate": "2013-12-20"
+          },
+          {
+            "id": "bs_math",
+            "title": "Bachelors of Science",
+            "abbrev": "B.S.",
+            "subject": "Applied Mathematics",
+            "startDate": "2008-08-25",
+            "endDate": "2013-12-20"
+          },
+          {
+            "id": "bs aero",
+            "title": "Bachelors of Science",
+            "abbrev": "B.S.",
+            "subject": "Aerospace Engineering",
+            "startDate": "2008-08-25",
+            "endDate": "2012-05-11"
+          }
+        ]  
       }
     ]
   },
   "experience": {
     "jobs": [
       {
-        "companyId": "toumetis",
-        "title": "Senior Software Developer",
+        "id": "toumetis",
+        "company": "Toumetis",
+        "title": "Senior Web Developer",
         "startDate": "2017-04-04",
         "endDate": "",
-        "description": "Toumetis description here"
+        "summary": "Currently leading the development of Cascadence, a cloud-based analytics platform which provides machine learning solutions for real-time industrial datasets.",
+        "points": [
+          "Leading the design of a React-based application with rich data visualization and real-time analysis results.",
+          "Collaborating with the data science team to engineer AWS-based tools for importing, processing and drawing results from large datasets.",
+          "Designed a backend which parses time series data from various sources and collates them in a SQL database with a Flask REST API.",
+          "Previously consulted for several mobile communication and IoT apps using Angular, Vue, Nativescript, Ionic and Toucan."
+        ] 
       },
       {
-        "companyId": "epic",
+        "id": "epic",
+        "company": "Epic Systems",
         "title": "Software Developer",
         "startDate": "2015-04-06",
         "endDate": "2016-09-29",
-        "description": "Epic description here"
+        "summary": "Developed web apps and database structures for the Hospital Billing application of Epic’s electronic medical record software.",
+        "points": [
+          "Transitioned a core billing app to Epic’s .NET web framework, fully rewriting the data model and back-end logic in C#.",
+          "Reimagined the VB front-end using ASP.NET and Javascript, improving aesthetics and adding asynchronous loading.",
+          "Managed hierarchical database objects and used the Caché scripting language to write load and save APIs.",
+          "Pioneered scrum and SVN processes for a new agile dev cycle."
+        ]
       },
       {
-        "companyId": "bb7",
+        "id": "bb7",
+        "company": "bb7",
         "title": "Research Engineer - Software and Electronics",
         "startDate": "2013-10-28",
         "endDate": "2015-03-13",
-        "description": "bb7 description here"
+        "summary": "Engaged in the end-to-end design of industrial prototypes, building proofs-of-concept by modeling systems, designing electrical PCBs and writing firmware to control them.",
+        "points": [  
+          "Implemented a 32-bit AVR running C for sensing, actuator control, USB comm and an LED-based UI for truck drivers.",
+          "Created a PCB to condition automotive power, read analog engine sensors and drive a motor and valves in response.",
+          "Wrote firmware for several test units which gathered and streamed data using either USB or Bluetooth.",
+          "Processed and analyzed test data using Python and NumPy."
+        ]
+      },
+      {
+        "id": "swri",
+        "company": "Southwest Research Institute and University of Colorado",
+        "title": "System Design Lead and Electrical Engineer",
+        "startDate": "2011-08-22",
+        "endDate": "2013-09-30",
+        "summary": "Led the engineering team for DayStar, a sub-arcsecond star tracking system which was implemented and flown on NASA's $1.5M BRRISON balloon mission.",
+        "points": [  
+          "Built a spectral performance model in MATLAB which drove the architecture of the optics, video processing and custom CMOS camera PCB.",
+          "Created a PCB stack to power an ATX motherboard, two scientific cameras, the steering mirror, mechanisms and heaters.",    
+          "Wrote firmware to manage system power, handle ATX power timing and accept commands from the PC over a USB interface.",
+          "Analyzed flight test video using NumPy to prove star finding capability and calculate subarcsecond tracking accuracy."
+        ]
       }
     ]
   },

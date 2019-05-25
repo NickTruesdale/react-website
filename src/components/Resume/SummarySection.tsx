@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './resume.styles';
-import { withStyles, WithStyles } from '@material-ui/core';
+import { withStyles, WithStyles, Typography } from '@material-ui/core';
 import { Summary } from 'models';
 
 interface Props extends WithStyles<typeof styles> {
@@ -12,9 +12,9 @@ const SectionHeader: React.FC<Props> = props => {
 
   return (
     <div className={classes.summaryCard}>
-      <div className={classes.header}>Summary</div>
-      <div className={classes.body}>{summary.p1}</div>
-      <div className={classes.body}>{summary.p2}</div>
+      <Typography variant="h2">Summary</Typography>
+      <Typography variant="body1">{summary.p1}</Typography>
+      <Typography variant="body1">{summary.p2}</Typography>
     </div>
   )
 };

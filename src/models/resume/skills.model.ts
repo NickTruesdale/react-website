@@ -11,5 +11,3 @@ export interface SkillCategory {
 export interface Skills {
   categories: SkillCategory[];
 }
-
-export const loadSkills = (skills: Skills) => skills;

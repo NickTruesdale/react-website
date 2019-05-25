@@ -1,28 +1,50 @@
 import React from 'react';
 import styles from './resume.styles';
-import { withStyles, WithStyles } from '@material-ui/core';
-import { Education, groupDegreesBySchool } from 'models';
+import { withStyles, WithStyles, Typography } from '@material-ui/core';
+import { Education, Degree } from 'models';
+import { format } from 'date-fns';
+
+import DictionaryTable from './DictionaryTable';
+import Leaders from './Leaders';
 
 interface Props extends WithStyles<typeof styles> {
   education: Education;
 }
 
+const formatDegree = (degree: Degree) => {
+  return degree.abbrev + ' ' + degree.subject;
+}
+
+const formatDate = (date: string) => {
+  return format(new Date(date), 'MM.YY');
+};
+
 const EducationSection: React.FC<Props> = props => {
   const { classes } = props;
-  const { degrees, focus, thesis, honors } = props.education;
+  const { schools, focus, thesis, honors } = props.education;
 
-  const schoolDict = groupDegreesBySchool(degrees);
-  const schools = Object.keys(schoolDict).map(id => schoolDict[id]);
+  const tableDict = {
+    'Focus': focus,
+    'Thesis': thesis,
+    'Honors': honors
+  };
 
   return (
     <div className={classes.educationCard}>
-      <div className={classes.header}>Education</div>
+      <Typography variant="h2">Education</Typography>
       {schools.map(school => (
-        <div className={classes.subheader}>{school.school ? school.school.name : ''}</div>
+        <React.Fragment key={school.id}>
+          <Typography variant="h3">{school.name}</Typography>
+          {school.degrees.map(degree => (
+            <div className={classes.withLeaders} key={school.id + degree.id}>
+              <Typography variant="body1">{formatDegree(degree)}</Typography>
+              <Leaders variant="body1" />
+              <Typography variant="body1">{formatDate(degree.endDate)}</Typography>
+            </div>
+          ))}  
+        </React.Fragment>
       ))}
-      <div className={classes.body}>Focus: {focus}</div>
-      <div className={classes.body}>Thesis: {thesis}</div>
-      <div className={classes.body}>Honors: {honors}</div>
+      <DictionaryTable dict={tableDict} />
     </div>
   )
 };

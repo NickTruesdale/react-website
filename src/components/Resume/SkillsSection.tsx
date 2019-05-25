@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './resume.styles';
-import { withStyles, WithStyles } from '@material-ui/core';
+import { withStyles, WithStyles, Typography } from '@material-ui/core';
 import { Skills } from 'models';
 
 
@@ -13,7 +13,7 @@ const SectionHeader: React.FC<Props> = props => {
 
   return (
     <div className={classes.skillsCard}>
-      <div className={classes.header}>Computer Skills</div>
+      <Typography variant="h2">Computer Skills</Typography>
     </div>
   )
 };
