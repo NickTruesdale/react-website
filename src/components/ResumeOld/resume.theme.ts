@@ -2,33 +2,31 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import createPalette from '@material-ui/core/styles/createPalette';
 import createTypography from '@material-ui/core/styles/createTypography';
 
-import { blueGrey } from '@material-ui/core/colors';
+import { blue, green } from '@material-ui/core/colors';
 import { Overrides } from '@material-ui/core/styles/overrides';
 
 
 // Light theme
+
 const palette = createPalette({
   type: 'light',
-  primary: blueGrey,
-  secondary: blueGrey
+  primary: blue,
+  secondary: green
 });
 
 // Typography
 const typography = createTypography(palette, {
   useNextVariants: true,
-  fontFamily: 'Roboto',
+  fontFamily: 'serif',
 });
 
 // Component overrides
 const overrides: Overrides = {
   MuiTypography: {
     h1: {
-      textAlign: 'justify',
-      fontSize: '21px',
-      fontFamily: 'Lato',
-      fontWeight: 300,
-      marginTop: '4px',
-      marginBottom: '12px'
+      textAlign: 'left',
+      fontWeight: 400,
+      fontSize: '36px'
     },
     h2: {
       textAlign: 'left',
@@ -37,7 +35,6 @@ const overrides: Overrides = {
       lineHeight: 1.4,
       fontVariant: 'small-caps',
       borderBottom: `1px solid ${palette.grey[700]}`,
-      marginTop: '8px',
       marginBottom: '6px'
     },
     h3: {
@@ -52,31 +49,18 @@ const overrides: Overrides = {
       fontSize: '10px',
       fontStyle: 'italic',
       lineHeight: 1.4,
-      marginBottom: '4px'
     },
     body1: {
       textAlign: 'justify',
       fontSize: '10px',
       lineHeight: 1.4,
-      marginBottom: '6px',
-    },
-    body2: {
-      textAlign: 'left',
-      fontSize: '10px',
-      lineHeight: 1.4,
-      whiteSpace: 'pre-line'
+      // margin: '4px 0'
     },
     caption: {
       fontSize: '9px',
       fontWeight: 'bold',
       lineHeight: 1.4,
       paddingRight: '8px'
-    },
-    subtitle1: {
-      textAlign: 'justify',
-      fontSize: '10px',
-      lineHeight: 1.4,
-      marginBottom: '2px',
     }
   },
   MuiList: {
@@ -84,16 +68,14 @@ const overrides: Overrides = {
       listStyle: 'disc outside none',
     },
     padding: {
-      paddingTop: '0',
-      paddingBottom: '10px',
+      paddingTop: '4px',
+      paddingBottom: '8px',
       paddingLeft: '20px'
     }
   },
   MuiListItem: {
     root: {
-      display: 'list-item',
-      textAlign: 'justify',
-      fontSize: '10px'
+      display: 'list-item'
     },
     gutters: {
       paddingTop: 0,
@@ -105,8 +87,14 @@ const overrides: Overrides = {
 } 
 
 // Create theme instances
+const defaultTheme = createMuiTheme({
+  typography: typography,
+  overrides: overrides,
+});
+
 const serifTheme = createMuiTheme({ palette, typography, overrides });
 
 export default {
+  default: defaultTheme,
   serif: serifTheme,
 };

@@ -14,7 +14,7 @@ interface SkillCategories {
 }
 
 const SectionHeader: React.FC<Props> = props => {
-  const { skills } = props;
+  const { skills, classes } = props;
 
   const categories: SkillCategories = skills.all.reduce((dict: SkillCategories, skill) => ({
     ...dict,
@@ -27,8 +27,8 @@ const SectionHeader: React.FC<Props> = props => {
   }), {})
 
   return (
-    <div>
-      <Typography variant="h2">Technical Skills</Typography>
+    <div className={classes.skillsCard}>
+      <Typography variant="h2">Computer Skills</Typography>
       <DictionaryTable dict={dictList} />
     </div>
   )

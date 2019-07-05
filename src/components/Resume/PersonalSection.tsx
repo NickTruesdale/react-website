@@ -1,7 +1,16 @@
 import React from 'react';
 import styles from './resume.styles';
-import { withStyles, WithStyles, Typography } from '@material-ui/core';
+import { withStyles, WithStyles, Typography, Avatar } from '@material-ui/core';
+import {
+  Phone as PhoneIcon,
+  MailOutline as EmailIcon,
+  Home as HomeIcon,
+  Cake as CakeIcon,
+} from '@material-ui/icons';
+
 import { Personal } from 'models';
+import DictionaryTable from './DictionaryTable';
+import photo from 'assets/headshot-light.png';
 
 interface Props extends WithStyles<typeof styles> {
   personal: Personal;
@@ -11,14 +20,23 @@ const PersonalSection: React.FC<Props> = props => {
   const { classes } = props;
   const { contact } = props.personal;
 
+  const personalDict = {
+    'Phone': contact.phone,
+    'Email': contact.email,
+    'Address': `${contact.address1}\n${contact.address2}`
+  };
+
+  const iconDict = {
+    'Phone': <PhoneIcon className={classes.tableIconContent} color="primary" />,
+    'Email': <EmailIcon className={classes.tableIconContent} color="primary" />,
+    'Address': <HomeIcon className={classes.tableIconContent} color="primary" />,
+  };
+
   return (
-    <div className={classes.personalCard}>
-      <Typography variant="h1" className={classes.name}>{contact.name}</Typography>
-      <div className={classes.contactInfo}>
-        <Typography variant="body1">{contact.phone}</Typography>
-        <Typography variant="body1">{contact.email}</Typography>
-        <Typography variant="body1">{contact.address1}</Typography>
-      </div>
+    <div>
+      <Avatar alt="Nicholas Truesdale" src={photo} className={classes.avatar} />
+      <Typography variant="h1">{contact.name}</Typography>  
+      <DictionaryTable dict={personalDict} icons={iconDict} />
     </div>
   )
 };

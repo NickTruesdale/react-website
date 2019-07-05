@@ -5,12 +5,12 @@
       "email": "truesdalen@gmail.com",
       "phone": "+44 7397 309330",
       "address1": "19 Chandlers House",
-      "address2": "Bristol, UK, BS1 6WD"
+      "address2": "Bristol, BS1 6WD, UK"
     }
   },
   "summary": {
-    "p1": "I am a software developer with a diverse background in space, math, electronics and web. The common thread in my life has been a passion for progress and discovery which has driven my career, my skills and a love of language and travel.",
-    "p2": "I am excited to work with an innovative company in Munich where I can continue to contribute and grow, both technically and culturally."
+    "p1": "My passion is creating electronics and software that tackles tough problems. I have experience spanning hardware, firmware and software design, making me a flexible engineer and a valuable resource on small teams.",
+    "p2": "I am seeking an exciting company in Bristol where I can continue to design software systems and make an impact with my unique skillset. My primary goals are to continue to learn, have fun and write elegant code."
   },
   "education": {
     "focus": "Astrodynamics and Spacecraft Navigation",
@@ -19,16 +19,13 @@
     "schools": [
       {
         "id": "cu",
-        "name": "University of Colorado",
-        "location": "Boulder, CO, US",
-        "startDate": "2008-08-25",
-        "endDate": "2013-12-20",
+        "name": "University of Colorado - Boulder",
         "degrees": [
           {
             "id": "ms_aero",
             "title": "Masters of Science",
             "abbrev": "M.S.",
-            "subject": "Aerospace Engineering - Astrodynamics and Spacecraft Nav.",
+            "subject": "Aerospace Engineering",
             "startDate": "2012-08-27",
             "endDate": "2013-12-20"
           },
@@ -58,55 +55,55 @@
         "id": "toumetis",
         "company": "Toumetis",
         "title": "Senior Web Developer",
-        "location": "Bristol, UK",
         "startDate": "2017-04-04",
         "endDate": "",
-        "summary": "I am the lead developer for a cloud-based platform for deploying machine learning predictions in industrial applications.",
+        "summary": "Currently leading the development of Cascadence, a cloud-based analytics platform which provides machine learning solutions for real-time industrial datasets.",
         "points": [
-          "Built several React-based applications with rich data visualization and real-time analysis results.",
-          "Designed and deployed services using Python, Docker and AWS to handle data ingest, storage and modeling.",
-          "Previously consulted for several mobile communication and IoT apps using Angular, Ionic and a custom JS framework."
+          "Leading the design of a React-based application with rich data visualization and real-time analysis results.",
+          "Collaborating with the data science team to engineer AWS-based tools for importing, processing and drawing results from large datasets.",
+          "Designed a backend which parses time series data from various sources and collates them in a SQL database with a Flask REST API.",
+          "Previously consulted for several mobile communication and IoT apps using Angular, Vue, Nativescript, Ionic and Toucan."
         ] 
       },
       {
         "id": "epic",
-        "company": "Epic",
+        "company": "Epic Systems",
         "title": "Software Developer",
-        "location": "Madison, WI, US",
         "startDate": "2015-04-06",
         "endDate": "2016-09-29",
         "summary": "Developed web apps and database structures for the Hospital Billing application of Epic’s electronic medical record software.",
         "points": [
           "Transitioned a core billing app to Epic’s .NET web framework, fully rewriting the data model and back-end logic in C#.",
-          "Reimagined the VB front-end using Javascript, improving aesthetics and adding asynchronous loading.",
-          "Managed hierarchical database schema and used the Caché scripting language to develop APIs."
+          "Reimagined the VB front-end using ASP.NET and Javascript, improving aesthetics and adding asynchronous loading.",
+          "Managed hierarchical database objects and used the Caché scripting language to write load and save APIs.",
+          "Pioneered scrum and SVN processes for a new agile dev cycle."
         ]
       },
       {
         "id": "bb7",
         "company": "bb7",
         "title": "Research Engineer - Software and Electronics",
-        "location": "Madison, WI, US",
         "startDate": "2013-10-28",
         "endDate": "2015-03-13",
-        "summary": "Consulted on commercial prototypes, doing up-front analysis followed by design, CAD and firmware for electronics.",
+        "summary": "Engaged in the end-to-end design of industrial prototypes, building proofs-of-concept by modeling systems, designing electrical PCBs and writing firmware to control them.",
         "points": [  
-          "Built test rigs for sensors and mechanisms, and applied results to system design using Python/NumPy and Labview.",
+          "Implemented a 32-bit AVR running C for sensing, actuator control, USB comm and an LED-based UI for truck drivers.",
           "Created a PCB to condition automotive power, read analog engine sensors and drive a motor and valves in response.",
-          "Implemented a 32-bit AVR running C for sensing, actuator control, USB comm and an LED-based UI for truck drivers."
+          "Wrote firmware for several test units which gathered and streamed data using either USB or Bluetooth.",
+          "Processed and analyzed test data using Python and NumPy."
         ]
       },
       {
         "id": "swri",
-        "company": "Southwest Research Institute",
+        "company": "Southwest Research Institute and University of Colorado",
         "title": "System Design Lead and Electrical Engineer",
-        "location": "Boulder, CO, US",
         "startDate": "2011-08-22",
         "endDate": "2013-09-30",
-        "summary": "Led the engineering team for DayStar, a sub-arcsecond star tracker flown on NASA's $1.5M BRRISON balloon mission.",
+        "summary": "Led the engineering team for DayStar, a sub-arcsecond star tracking system which was implemented and flown on NASA's $1.5M BRRISON balloon mission.",
         "points": [  
-          "Built a spectral performance model in MATLAB which drove optics, video processing and custom CMOS camera design.",
-          "Created a PCB stack in Altium to power an ATX motherboard, science cameras, a steering mirror, mechanisms and heaters.",
+          "Built a spectral performance model in MATLAB which drove the architecture of the optics, video processing and custom CMOS camera PCB.",
+          "Created a PCB stack to power an ATX motherboard, two scientific cameras, the steering mirror, mechanisms and heaters.",    
+          "Wrote firmware to manage system power, handle ATX power timing and accept commands from the PC over a USB interface.",
           "Analyzed flight test video using NumPy to prove star finding capability and calculate subarcsecond tracking accuracy."
         ]
       }
@@ -145,21 +142,15 @@
         "category": "Languages"
       },
       {
-        "id": "vb",
-        "name": "VB",
-        "abbrev": "VB",
-        "category": "Languages"
-      },
-      {
         "id": "objectiveC",
         "name": "Objective C",
         "abbrev": "ObjC",
         "category": "Languages"
       },
       {
-        "id": "java",
-        "name": "Java",
-        "abbrev": "Java",
+        "id": "vb",
+        "name": "VB",
+        "abbrev": "VB",
         "category": "Languages"
       },
   
@@ -167,19 +158,19 @@
         "id": "react",
         "name": "React",
         "abbrev": "React",
-        "category": "Front End"
+        "category": "Frontend"
       },
       {
         "id": "angular",
         "name": "Angular 1/2",
         "abbrev": "Angular",
-        "category": "Front End"
+        "category": "Frontend"
       },
       {
         "id": ".net",
         "name": ".NET",
         "abbrev": ".NET",
-        "category": "Front End"
+        "category": "Frontend"
       },
   
   
@@ -187,25 +178,31 @@
         "id": "flask",
         "name": "Flask",
         "abbrev": "Flask",
-        "category": "Back End"
+        "category": "Backend"
       },
       {
         "id": "django",
         "name": "Django",
         "abbrev": "Django",
-        "category": "Back End"
+        "category": "Backend"
       },
       {
         "id": "sql",
         "name": "SQL",
         "abbrev": "SQL",
-        "category": "Back End"
+        "category": "Backend"
       },
   
       {
         "id": "ionic",
         "name": "Ionic",
         "abbrev": "Ionic",
+        "category": "Mobile"
+      },
+      {
+        "id": "nsVue",
+        "name": "Nativescript-Vue",
+        "abbrev": "NS-Vue",
         "category": "Mobile"
       },
       {
@@ -223,14 +220,14 @@
   
       {
         "id": "numpy",
-        "name": "NumPy/SciPy",
-        "abbrev": "NumPy/SciPy",
+        "name": "Numpy/SciPi",
+        "abbrev": "Numpy/SciPy",
         "category": "Analysis"
       },
       {
         "id": "matlab",
-        "name": "MATLAB",
-        "abbrev": "MATLAB",
+        "name": "Matlab",
+        "abbrev": "Matlab",
         "category": "Analysis"
       },
   

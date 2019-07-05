@@ -8,11 +8,11 @@ interface Props extends WithStyles<typeof styles> {
 }
 
 const SectionHeader: React.FC<Props> = props => {
-  const { summary } = props;
+  const { summary, classes } = props;
 
   return (
-    <div>
-      <Typography variant="h2">About Me</Typography>
+    <div className={classes.summaryCard}>
+      <Typography variant="h2">Summary</Typography>
       <Typography variant="body1">{summary.p1}</Typography>
       <Typography variant="body1">{summary.p2}</Typography>
     </div>

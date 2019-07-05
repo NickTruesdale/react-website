@@ -1,6 +1,9 @@
 
 export interface Skill {
+  id: string;
   name: string;
+  abbrev: string;
+  category: string;
 }
 
 export interface SkillCategory {
@@ -9,5 +12,5 @@ export interface SkillCategory {
 }
 
 export interface Skills {
-  categories: SkillCategory[];
+  all: Skill[];
 }

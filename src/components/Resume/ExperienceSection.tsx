@@ -4,18 +4,12 @@ import { withStyles, WithStyles, Typography, List, ListItem } from '@material-ui
 import { Experience } from 'models';
 import { format } from 'date-fns';
 
-import Leaders from './Leaders';
-
 interface Props extends WithStyles<typeof styles> {
   experience: Experience;
 }
 
 const formatDate = (date: string) => {
-  return format(new Date(date), 'YYYY.MM');
-}
-
-const formatDateRange = (start: string, end: string) => {
-  return formatDate(start) + ' – ' + (end ? formatDate(end) : 'Current');
+  return date ? format(new Date(date), 'YYYY.MM') : 'Present';
 }
 
 const ExperienceSection: React.FC<Props> = props => {
@@ -23,24 +17,26 @@ const ExperienceSection: React.FC<Props> = props => {
   const jobs = experience.jobs;
 
   return (
-    <div className={classes.experienceCard}>
+    <div>
       <Typography variant="h2">Experience</Typography>
       {jobs.map(job => (
-        <div key={job.id} className={classes.jobCard}>
-          <div className={classes.withLeaders}>
-            <Typography variant="h3">{job.company}</Typography>
-            <Leaders variant="h3" />
-            <Typography variant="h3">{formatDateRange(job.startDate, job.endDate)}</Typography>
+        <div className={classes.jobCard} key={job.id}>
+          <div className={classes.jobDates}>
+            <Typography variant="subtitle1">{formatDate(job.endDate)}</Typography>
+            <Typography variant="subtitle1">{formatDate(job.startDate)}</Typography>
           </div>
-          <Typography variant="h4">{job.title}</Typography>
-          <Typography variant="body1">{job.summary}</Typography>
-          <List>
-            {job.points.map((point, index) => (
-              <Typography variant="body1" key={job.id + index}>
-                <ListItem>{point}</ListItem>
-              </Typography>
-            ))}
-          </List>
+          <div className={classes.jobContent}>
+            <Typography variant="h3">{job.title}</Typography>
+            <Typography variant="h4">{job.company + '  -  ' + job.location}</Typography>
+            <Typography variant="body1">{job.summary}</Typography>
+            <List className={classes.jobPointList}>
+              {job.points.map((point, index) => (
+                <ListItem>
+                  <Typography className={classes.jobPoint} variant="body1" key={job.id + index}>{point}</Typography>
+                </ListItem>
+              ))}
+            </List>
+          </div>
         </div>
       ))}
     </div>
