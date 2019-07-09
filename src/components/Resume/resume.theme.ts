@@ -27,7 +27,7 @@ const overrides: Overrides = {
       fontSize: '21px',
       fontFamily: 'Lato',
       fontWeight: 300,
-      marginTop: '4px',
+      marginTop: '8px',
       marginBottom: '12px'
     },
     h2: {
@@ -57,7 +57,7 @@ const overrides: Overrides = {
     body1: {
       textAlign: 'justify',
       fontSize: '10px',
-      lineHeight: 1.4,
+      lineHeight: 1.35,
       marginBottom: '6px',
     },
     body2: {

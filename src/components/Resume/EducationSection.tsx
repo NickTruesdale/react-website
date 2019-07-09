@@ -39,7 +39,7 @@ const EducationSection: React.FC<Props> = props => {
               ))}
             </Typography>  
             
-            <Typography variant="body1">Honors: {honors}</Typography>
+            <Typography variant="body1">{honors}</Typography>
           </div>
         </div>        
       ))}

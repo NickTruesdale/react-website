@@ -5,12 +5,11 @@ import {
   Phone as PhoneIcon,
   MailOutline as EmailIcon,
   Home as HomeIcon,
-  Cake as CakeIcon,
 } from '@material-ui/icons';
 
 import { Personal } from 'models';
 import DictionaryTable from './DictionaryTable';
-import photo from 'assets/headshot-light.png';
+import photo from 'assets/headshot-light-small.png';
 
 interface Props extends WithStyles<typeof styles> {
   personal: Personal;

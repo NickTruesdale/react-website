@@ -1,5 +1,5 @@
 import { createStyles, Theme } from '@material-ui/core';
-import { relative } from 'path';
+import { blueGrey } from '@material-ui/core/colors';
 
 const styles = (theme: Theme) => createStyles({
   container: {
@@ -8,29 +8,29 @@ const styles = (theme: Theme) => createStyles({
   page: {
     width: '595px',
     height: '842px',
-    border: '1px solid black',
-    // padding: '20px 20px',
+    // border: '1px solid black',
+    boxSizing: 'content-box'
   },
   columns: {
     display: 'flex',
     height: '100%',
+    boxSizing: 'border-box',
   },
   column: {
     height: '100%',
-    padding: '8px 24px',
     display: 'flex',
     flexDirection: 'column',
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   left: {
-    backgroundColor: theme.palette.primary.light,
-    padding: '8px 22px',
+    backgroundColor: '#dcecfa',
+    padding: '12px 22px',
     width: '216px',
     flexShrink: 0
   },
   right: {
     flexGrow: 1,
-    paddingLeft: '12px'
+    padding: '18px 26px 12px 14px'
   },
 
   avatar: {
@@ -73,7 +73,7 @@ const styles = (theme: Theme) => createStyles({
   },
   tableRight: {
     borderBottom: 'none',
-    paddingBottom: '4px'
+    paddingBottom: '3px'
   },
   tableIcon: {
     width: '24px',

@@ -35,7 +35,7 @@ const Resume: React.FC<Props> = props => {
 
   const hobbies = {
     'Outdoor': 'Travel, Skiing, Volleyball, Camping, Gardening',
-    'Indoor': 'Cooking, Video Games, Cocktail Mixology'
+    'Indoor': 'Cooking, Video Games, Cocktail Mixing'
   };
 
   return (

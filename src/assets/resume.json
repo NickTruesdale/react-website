@@ -15,7 +15,7 @@
   "education": {
     "focus": "Astrodynamics and Spacecraft Navigation",
     "thesis": "Modular Power System Design for BRRISON",
-    "honors": "Magna Cum Laude, Engineering Honors Program",
+    "honors": "Graduated Magna Cum Laude, With Honors, GPA 3.833/4.000",
     "schools": [
       {
         "id": "cu",
@@ -63,7 +63,7 @@
         "endDate": "",
         "summary": "I am the lead developer for a cloud-based platform for deploying machine learning predictions in industrial applications.",
         "points": [
-          "Built several React-based applications with rich data visualization and real-time analysis results.",
+          "Built several React-based applications with rich data visualization and dashboards for analysis results.",
           "Designed and deployed services using Python, Docker and AWS to handle data ingest, storage and modeling.",
           "Previously consulted for several mobile communication and IoT apps using Angular, Ionic and a custom JS framework."
         ] 
@@ -99,7 +99,7 @@
       {
         "id": "swri",
         "company": "Southwest Research Institute",
-        "title": "System Design Lead and Electrical Engineer",
+        "title": "Graduate Student - System Design Lead and Electrical Engineer",
         "location": "Boulder, CO, US",
         "startDate": "2011-08-22",
         "endDate": "2013-09-30",
@@ -184,6 +184,12 @@
   
   
       {
+        "id": "fastapi",
+        "name": "FastAPI",
+        "abbrev": "FastAPI",
+        "category": "Back End"
+      },
+      {
         "id": "flask",
         "name": "Flask",
         "abbrev": "Flask",
@@ -193,12 +199,6 @@
         "id": "django",
         "name": "Django",
         "abbrev": "Django",
-        "category": "Back End"
-      },
-      {
-        "id": "sql",
-        "name": "SQL",
-        "abbrev": "SQL",
         "category": "Back End"
       },
   
