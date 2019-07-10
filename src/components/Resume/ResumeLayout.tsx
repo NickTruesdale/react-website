@@ -21,7 +21,7 @@ const resume = resumeJson as ResumeData;
 
 interface Props extends WithStyles<typeof styles> {}
 
-const Resume: React.FC<Props> = props => {
+const ResumeLayout: React.FC<Props> = props => {
   const { classes } = props;
 
   const left = classNames(classes.column, classes.left);
@@ -59,4 +59,4 @@ const Resume: React.FC<Props> = props => {
   );
 };
 
-export default withStyles(styles)(Resume);
+export default withStyles(styles)(ResumeLayout);

@@ -7,7 +7,7 @@ interface Props extends WithStyles<typeof styles> {
   summary: Summary;
 }
 
-const SectionHeader: React.FC<Props> = props => {
+const SummarySection: React.FC<Props> = props => {
   const { summary } = props;
 
   return (
@@ -19,4 +19,4 @@ const SectionHeader: React.FC<Props> = props => {
   )
 };
 
-export default withStyles(styles)(SectionHeader);
+export default withStyles(styles)(SummarySection);

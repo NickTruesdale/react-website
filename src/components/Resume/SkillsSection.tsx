@@ -13,7 +13,7 @@ interface SkillCategories {
   [key: string]: Skill[];
 }
 
-const SectionHeader: React.FC<Props> = props => {
+const SkillsSection: React.FC<Props> = props => {
   const { skills } = props;
 
   const categories: SkillCategories = skills.all.reduce((dict: SkillCategories, skill) => ({
@@ -34,4 +34,4 @@ const SectionHeader: React.FC<Props> = props => {
   )
 };
 
-export default withStyles(styles)(SectionHeader);
+export default withStyles(styles)(SkillsSection);

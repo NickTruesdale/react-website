@@ -16,13 +16,13 @@ interface Props extends WithStyles<typeof styles> {
 }
 
 const PersonalSection: React.FC<Props> = props => {
-  const { classes } = props;
-  const { contact } = props.personal;
+  const { classes, personal } = props;
+  const { name, phone, email, address1, address2, address3 } = personal.contact;
 
   const personalDict = {
-    'Phone': contact.phone,
-    'Email': contact.email,
-    'Address': `${contact.address1}\n${contact.address2}`
+    'Phone': phone,
+    'Email': email,
+    'Address': `${address1}\n${address2 + ', ' + address3}`
   };
 
   const iconDict = {
@@ -34,7 +34,7 @@ const PersonalSection: React.FC<Props> = props => {
   return (
     <div>
       <Avatar alt="Nicholas Truesdale" src={photo} className={classes.avatar} />
-      <Typography variant="h1">{contact.name}</Typography>  
+      <Typography variant="h1">{name}</Typography>  
       <DictionaryTable dict={personalDict} icons={iconDict} />
     </div>
   )

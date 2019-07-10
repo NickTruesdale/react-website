@@ -1,5 +1,4 @@
 import { createStyles, Theme } from '@material-ui/core';
-import { blueGrey } from '@material-ui/core/colors';
 
 const styles = (theme: Theme) => createStyles({
   container: {
@@ -32,37 +31,12 @@ const styles = (theme: Theme) => createStyles({
     flexGrow: 1,
     padding: '18px 26px 12px 14px'
   },
-
   avatar: {
     width: '94%',
     margin: '3%',
     height: 'auto',
   },
 
-
-
-
-  withLeaders: {
-    display: 'flex',
-    whiteSpace: 'nowrap',
-  },
-  leaders: {
-    flexGrow: 1,
-    overflow: 'hidden',
-    margin: '0 8px',
-  },
-  name: {
-    flexGrow: 1,
-  },
-  contactInfo: {
-    width: '200px',
-    border: `2px solid black`,
-    borderRadius: '4px',
-    backgroundColor: '#eeaa66',
-  },
-  degreeList: {
-    padding: '4px 0'
-  },
   tableRow: {
     verticalAlign: 'top',
     height: 'auto',

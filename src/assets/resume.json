@@ -2,10 +2,13 @@
   "personal": {
     "contact": {
       "name": "Nicholas Truesdale",
+      "nickname": "Nick Truesdale",
+      "company": "",
       "email": "truesdalen@gmail.com",
       "phone": "+44 7397 309330",
       "address1": "19 Chandlers House",
-      "address2": "Bristol, UK, BS1 6WD"
+      "address2": "BS1 6WD, Bristol",
+      "address3": "UK"
     }
   },
   "summary": {
@@ -61,11 +64,11 @@
         "location": "Bristol, UK",
         "startDate": "2017-04-04",
         "endDate": "",
-        "summary": "I am the lead developer for a cloud-based platform for deploying machine learning predictions in industrial applications.",
+        "summary": "I am the lead developer for Cascadence, a cloud platform for deploying machine learning predictions in industrial applications.",
         "points": [
-          "Built several React-based applications with rich data visualization and dashboards for analysis results.",
-          "Designed and deployed services using Python, Docker and AWS to handle data ingest, storage and modeling.",
-          "Previously consulted for several mobile communication and IoT apps using Angular, Ionic and a custom JS framework."
+          "Designing web services using FastAPI, PostreSQL, NumPy and Pandas to ingest, process and store data.",
+          "Collaborating with data scientists to deploy scikit-learn and Keras models to AWS using Docker, ECS and Lambda.",
+          "Building React and Angular 2 applications with rich data visualization and dashboards to show model predictions."
         ] 
       },
       {
@@ -79,7 +82,7 @@
         "points": [
           "Transitioned a core billing app to Epic’s .NET web framework, fully rewriting the data model and back-end logic in C#.",
           "Reimagined the VB front-end using Javascript, improving aesthetics and adding asynchronous loading.",
-          "Managed hierarchical database schema and used the Caché scripting language to develop APIs."
+          "Managed hierarchical database schemas and used the Caché scripting language to develop APIs."
         ]
       },
       {
@@ -91,7 +94,7 @@
         "endDate": "2015-03-13",
         "summary": "Consulted on commercial prototypes, doing up-front analysis followed by design, CAD and firmware for electronics.",
         "points": [  
-          "Built test rigs for sensors and mechanisms, and applied results to system design using Python/NumPy and Labview.",
+          "Built test rigs for sensors and mechanisms, and applied results to system design using Python/NumPy and LabVIEW.",
           "Created a PCB to condition automotive power, read analog engine sensors and drive a motor and valves in response.",
           "Implemented a 32-bit AVR running C for sensing, actuator control, USB comm and an LED-based UI for truck drivers."
         ]

@@ -5,6 +5,8 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import Resume from './components/Resume/Resume';
+import CoverLetter from './components/CoverLetter/CoverLetter';
+
 import ResumeOld from './components/ResumeOld/ResumeOld';
 
 const styles = (theme: Theme) => createStyles({
@@ -23,6 +25,8 @@ const App: React.FC<Props> = (props) => {
       <Switch>
         <Route path={'/home'} component={Home} />
         <Route path={'/resume'} component={Resume} />
+        <Route path={'/cover'} component={CoverLetter} />
+        
         <Route path={'/resume-old'} component={ResumeOld} />
 
         <Redirect exact from={'/'} to={'/home'} />
