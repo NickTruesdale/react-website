@@ -13,7 +13,8 @@
   },
   "summary": {
     "p1": "I am a software developer with a diverse background in space, math, electronics and web. The common thread in my life has been a passion for progress and discovery which has driven my career, my skills and a love of language and travel.",
-    "p2": "I am excited to work with an innovative company in Munich where I can continue to contribute and grow, both technically and culturally."
+    "p2": "I am seeking to relocate to Germany to work with a software or data science company and to continue to improve myself, both technically and culturally.",
+    "p3": "I am excited to work with an innovative company in Munich where I can continue to contribute and grow, both technically and culturally."
   },
   "education": {
     "focus": "Astrodynamics and Spacecraft Navigation",
@@ -68,7 +69,7 @@
         "points": [
           "Designing web services using FastAPI, PostreSQL, NumPy and Pandas to ingest, process and store data.",
           "Collaborating with data scientists to deploy scikit-learn and Keras models to AWS using Docker, ECS and Lambda.",
-          "Building React and Angular 2 applications with rich data visualization and dashboards to show model predictions."
+          "Building React and Angular 2 applications with rich data visualisation and dashboards to show model predictions."
         ] 
       },
       {
@@ -110,7 +111,7 @@
         "points": [  
           "Built a spectral performance model in MATLAB which drove optics, video processing and custom CMOS camera design.",
           "Created a PCB stack in Altium to power an ATX motherboard, science cameras, a steering mirror, mechanisms and heaters.",
-          "Analyzed flight test video using NumPy to prove star finding capability and calculate subarcsecond tracking accuracy."
+          "Analysed flight test video using NumPy to prove star finding capability and calculate sub-arcsecond tracking accuracy."
         ]
       }
     ]
@@ -226,8 +227,14 @@
   
       {
         "id": "numpy",
-        "name": "NumPy/SciPy",
-        "abbrev": "NumPy/SciPy",
+        "name": "NumPy",
+        "abbrev": "NumPy",
+        "category": "Analysis"
+      },
+      {
+        "id": "pandas",
+        "name": "Pandas",
+        "abbrev": "Pandas",
         "category": "Analysis"
       },
       {

@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './resume.styles';
 import { withStyles, WithStyles, Typography, Avatar } from '@material-ui/core';
 import {
+  Home as HomeIcon,
   Phone as PhoneIcon,
   MailOutline as EmailIcon,
-  Home as HomeIcon,
+  Language as WebsiteIcon
 } from '@material-ui/icons';
 
 import { Personal } from 'models';
@@ -22,13 +23,15 @@ const PersonalSection: React.FC<Props> = props => {
   const personalDict = {
     'Phone': phone,
     'Email': email,
-    'Address': `${address1}\n${address2 + ', ' + address3}`
+    'Address': `${address1}\n${address2 + ', ' + address3}`,
+    'Website': 'www.linkedin.com/in/ntruesdale'
   };
 
   const iconDict = {
     'Phone': <PhoneIcon className={classes.tableIconContent} color="primary" />,
     'Email': <EmailIcon className={classes.tableIconContent} color="primary" />,
     'Address': <HomeIcon className={classes.tableIconContent} color="primary" />,
+    'Website': <WebsiteIcon className={classes.tableIconContent} color="primary" />
   };
 
   return (

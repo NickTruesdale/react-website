@@ -18,7 +18,7 @@ const Footer: React.FC<Props> = props => {
   return (
     <div>
       <Typography variant="body1">Sincerely,</Typography>
-      <img className={classes.signature} src={signature} />
+      <img className={classes.signature} src={signature} alt="Nick Truesdale" />
       <Typography variant="body1">{nickname || name}</Typography>
     </div>
   );

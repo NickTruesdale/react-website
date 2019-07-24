@@ -1,0 +1,26 @@
+{
+  "id": "bmw-autonomous-driving",
+  "name": "BMW - Software Developer for Autonomous Driving",
+  "contact": {
+    "name": "Janina Schumann",
+    "nickname": "",
+    "company": "BMW AG",
+    "email": "",
+    "phone": "+49 89 382 17001",
+    "address1": "Taunusstraße 41",
+    "address2": "80807 München",
+    "address3": "Deutschland"
+  },
+  "date": "2019-07-16",
+  "subject": "Application for Software Developer (C++/Python) for Autonomous Driving",
+  "salutation": "Dear Ms. Schumann,",
+  "paragraphs": [
+    "In a decade of learning and practicing engineering, I have found that working in diverse teams enriches not just the project, but me as a person. The desire to surround myself with smart, unique people - and to contribute my own unique skills and perspective - is a primary part of my dream to work abroad in Germany. The other goal is to find an exciting, innovative application for my programming and data science skills; I think BMW's Autonomous Driving division is the perfect fit for both of these.",
+
+    "The primary thing I can offer your team is a strong programming skill set. I am an expert in Python, having used it for both backend and data analysis across a number of projects. I am comfortable with both object-oriented and functional concepts, and have skills interfacing with SQL and other complex data sources using NumPy and Pandas. I also have past experience in C++ from my Applied Mathematics background, with course experience in data structures and performance-intensive numerical analysis. Finally, my years of experience in production systems has ingrained a respect for clean, well-tested code and deployment pipelines.",
+
+    "Beyond my coding skills, my engineering background is what sets me apart. I have an M.S. in Aerospace Engineering and research experience in system analysis, electronics and firmware. On the BRRISON project, I led a team in designing a star tracker and telescope control system for a NASA balloon payload. At bb7, I designed the electronics for an automotive fuel control system. These experiences supplement my skills as a developer, making me well-suited for many of the challenges in autonomous driving that relate to other engineering disciplines.",
+
+    "I am very excited to be applying to this position with BMW and to contribute to your team. Autonomous driving is a fascinating field and I feel uniquely poised to make an impact with my experience in software engineering, as well as data processing, controls and vehicle electronics. Please see my attached CV and contact my if you would like to schedule an interview."
+  ]
+}

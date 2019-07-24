@@ -37,7 +37,7 @@ const overrides: Overrides = {
       lineHeight: 1.4,
       fontVariant: 'small-caps',
       borderBottom: `1px solid ${palette.grey[700]}`,
-      marginTop: '8px',
+      marginTop: '4px',
       marginBottom: '6px'
     },
     h3: {
@@ -85,7 +85,7 @@ const overrides: Overrides = {
     },
     padding: {
       paddingTop: '0',
-      paddingBottom: '10px',
+      paddingBottom: '12px',
       paddingLeft: '20px'
     }
   },

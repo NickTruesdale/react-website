@@ -1,0 +1,26 @@
+{
+  "id": "nvidia-general",
+  "name": "Nvidia",
+  "contact": {
+    "name": "",
+    "nickname": "",
+    "company": "NVIDIA GmbH",
+    "email": "",
+    "phone": "",
+    "address1": "Bavaria Towers – Blue Tower",
+    "address2": "Einsteinstrasse 172",
+    "address3": "D-81677 Munich, Germany"
+  },
+  "date": "2019-07-24",
+  "subject": "Application for Developer Technology Engineer, Autonomous Driving or AI",
+  "salutation": "Dear Nvidia Hiring Team,",
+  "paragraphs": [
+    "I am a software developer looking to apply my mathematics and modeling background to the field of AI. My current objective is to move to Germany in order to expand both my machine learning skills and my German proficiency. Nvidia, being a primary enabler of AI in self-driving vehicles, presents an exciting opportunity in Munich, and I look forward to contributing to your team as a software engineer in either AI or Autonomous Driving.",
+
+    "While the past four years of my career have given me valuable experience in production software, my roots lie in research and development. During my Master's degree program in satellite navigation, I routinely applied MATLAB to system dynamics and sensor fusion of GPS, attitude and other sensors using methods such as Kalman filtering. I also took courses in numerical analysis, which utilised C++ and focused on algorithm design and performance. These culminated with my thesis and professional work on BRRISON, a NASA balloon-based astronomy project. Our team of four owned the telescope's fine steering mirror system, which analysed a star-imaging camera at 250Hz to detect and adjust for gondola motion with sub-arcsecond accuracy. I contributed modelling of image processing in MATLAB, firmware for the camera and computer power system in Embedded C, and processing of flight data in NumPy.",
+
+    "Since BRRISON, I have accrued a range of professional development skills that I can contribute at Nvidia. At bb7, I worked with Embedded C/C++ for 8-bit and 32-bit microprocessors, including an automotive project. With Epic and Toumetis, I have used C# and Python to manage data flow within complex systems. And most recently, I have worked closely with data scientists to package and deploy machine learning models on an AWS cloud platform.",
+
+    "While I have more to learn in both AI and parallelisation, I can make up for this with expert programming skills, strong mathematical fundamentals, and a voracious appetite for new technology. I would love to speak to you further about one or both of these roles; please see my attached CV and contact me to set up an interview."
+  ]
+}

@@ -2,12 +2,13 @@ import { createStyles, Theme } from '@material-ui/core';
 
 const styles = (theme: Theme) => createStyles({
   container: {
-    padding: '10px'
+    //padding: '10px'
   },
   page: {
     width: '595px',
     height: '842px',
     padding: '50px',
+    fontVariantLigatures: 'none',
     border: '1px solid black',
   },
   headerDetails: {
@@ -15,8 +16,8 @@ const styles = (theme: Theme) => createStyles({
     justifyContent: 'center'
   },
   signature: {
-    height: '76px',
-    paddingTop: '4px'
+    height: '72px',
+    marginBottom: '-4px'
   },
 });
 

@@ -1,0 +1,26 @@
+{
+  "id": "bmw-research-engineer",
+  "name": "BMW - Senior Software Engineer",
+  "contact": {
+    "name": "Christina Simon",
+    "nickname": "",
+    "company": "BMW AG",
+    "email": "",
+    "phone": "+49 89 382 17001",
+    "address1": "Taunusstraße 41",
+    "address2": "80807 München",
+    "address3": "Deutschland"
+  },
+  "date": "2019-07-16",
+  "subject": "Application for Senior Software Engineer in Technology Research",
+  "salutation": "Dear Ms. Simon,",
+  "paragraphs": [
+    "In a decade of learning and practicing engineering, I have found that working in diverse teams enriches not just the project, but me as a person. The desire to surround myself with smart, unique people - and to contribute my own unique skills and perspective - is a primary part of my dream to work abroad in Germany. The other goal is to find an exciting, innovative application for my programming and data science skills; I think BMW's technology research division is the perfect fit for both of these.",
+
+    "I have a broad background spanning both software engineering and research. My education, while strongly grounded in programming, also focused on systems engineering, modelling and electronics. I was the system lead on several successful research projects - chiefest among them BRRISON, a NASA astronomy payload - and for these I modelled performance in MATLAB, designed PCBs in Altium, wrote flight code in C and analysed flight data in Python. I continued to hone these skills at bb7, where I worked on both automotive electronics and IoT prototypes.",
+
+    "For the past four years, I have focused purely on production software as a full-stack developer. At Toumetis, I first consulted on mobile apps for communication and home automation. Now, I have taken a leadership role in designing our cloud computing platform. I have combined existing strengths in Python and Javascript with new deployment methods in Docker and AWS as we find ways to design scalable services. I have also helped enforce good programming practices with Typescript, modular and object-oriented code, and unit testing.",
+
+    "Overall, I can bring a unique skillset to BMW as a Senior Software Engineer. I have expert Python skills, exposure to C/C++ and Java, and a proven record of learning new languages. My additional experience in other fields, including cloud computing, mobile apps, and vehicle electronics, makes me a unique candidate who is well-situated for a research role. Please see my attached CV and contact my if you would like to schedule an interview."
+  ]
+}

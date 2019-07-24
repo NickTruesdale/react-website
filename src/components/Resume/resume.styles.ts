@@ -7,6 +7,7 @@ const styles = (theme: Theme) => createStyles({
   page: {
     width: '595px',
     height: '842px',
+    fontVariantLigatures: 'none',
     // border: '1px solid black',
     boxSizing: 'content-box'
   },
@@ -29,7 +30,7 @@ const styles = (theme: Theme) => createStyles({
   },
   right: {
     flexGrow: 1,
-    padding: '18px 26px 12px 14px'
+    padding: '19px 26px 12px 14px'
   },
   avatar: {
     width: '94%',

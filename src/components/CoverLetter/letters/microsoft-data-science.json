@@ -1,0 +1,26 @@
+{
+  "id": "microsoft-data-science",
+  "name": "Microsoft - Data and Applied Scientist",
+  "contact": {
+    "name": "",
+    "nickname": "",
+    "company": "Microsoft Germany GmbH",
+    "email": "",
+    "phone": "",
+    "address1": "Walter-Gropius-Straße 5",
+    "address2": "80807 München",
+    "address3": "Deutschland"
+  },
+  "date": "2019-07-11",
+  "subject": "Application for Data and Applied Scientist",
+  "salutation": "Dear Sir or Madam,",
+  "paragraphs": [
+    "I am a software developer from the United States with a love of travel and world cultures. This brought me to England three years ago, where I have enjoyed working in data science and exploring a brand new continent. Now, I am eager to take two big steps: one deeper into machine learning, the other into German culture. Microsoft in Munich seems like a perfect fit for this, and I am excited to contribute my skills and experience to your team.",
+    
+    "As a data scientist with Microsoft I can offer an array of skills which stem from a unique background. My education focused on both programming and data analysis in the context of Applied Mathematics (B.S.) and Aerospace Engineering (M.S.). My coursework and research included numerous projects in MATLAB and C++, from orbit analysis to interplanetary mission design. I also worked separately on a NASA astronomy mission called BRRISON, which included models in both MATLAB and Python to analyse theoretical and actual performance of balloon-borne telescopes and star trackers.",
+
+    "My experience since graduating has been varied, though all of it has honed my skills in system design and production software. This has helped me excel in my current role with Toumetis, where I am the lead for our industrial machine learning platform. As a full-stack developer, I integrate closely with our data scientists to implement and deploy Python models in a cloud-friendly, scalable manner. I have developed expert Python skills, a good working knowledge of AWS deployment, and familiarity with scikit-learn and Keras for clustering and neural networks.",
+    
+    "While I am continuing to improve my technical machine learning skills, I can also offer over six years of industry experience designing high-quality software for real-world applications. Along with my academic background and proven ability to adapt to new technologies, I expect to integrate quickly with your team and contribute a unique perspective and skill set. Please see my attached CV and contact my if you would like to schedule an interview."
+  ]
+}

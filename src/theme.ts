@@ -12,7 +12,10 @@ const lightSecondary = blue;
 const lightPalette: PaletteOptions = {
   type: 'light',
   primary: lightPrimary,
-  secondary: lightSecondary
+  secondary: lightSecondary,
+  background: {
+    default: '#fff'
+  }
 };
 
 // Dark theme

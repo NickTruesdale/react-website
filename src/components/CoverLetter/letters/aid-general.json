@@ -1,0 +1,26 @@
+{
+  "id": "aid-general",
+  "name": "Autonomous Intelligent Driving",
+  "contact": {
+    "name": "",
+    "nickname": "",
+    "company": "Autonomous Intelligent Driving",
+    "email": "",
+    "phone": "",
+    "address1": "",
+    "address2": "München",
+    "address3": "Deutschland"
+  },
+  "date": "2019-07-17",
+  "subject": "Application for Data Engineer and other Perception & Prediction roles",
+  "salutation": "Dear AID Hiring Team,",
+  "paragraphs": [
+    "I am a software developer and engineer seeking to relocate to Germany. My passion lies in technology research and in Munich nothing seems more on the cusp of a breakthrough than automated driving. I am particularly interested in the Perception and Prediction area, because it closely mirrors my experience in navigation and control for aerospace applications. I have strong skills spanning sensing, data management and modelling, and am eager to see how I can contribute these to your team.", 
+
+    "While the past four years of my career have given me valuable experience in production software, my roots lie in research and development. In my Master's degree program in satellite navigation, I routinely applied MATLAB and C++ to models which converted raw sensor data - GPS, radar, attitude, etc. - to position and pointing information using statistical methods. I also worked on electronics and firmware for sensing and imaging payloads on both CubeSats and scientific balloons. These culminated with my thesis and professional work on BRRISON, a NASA balloon-based astronomy project. Our team of four owned the telescope's fine steering mirror system, which analysed a star-imaging camera at 250Hz to detect and adjust for gondola motion with sub-arcsecond accuracy. I contributed camera modelling in MATLAB, the complete electrical design supporting the cameras and mirror, and processing of flight data in NumPy.",
+    
+    "All of this experience translates well to AID, with satellites and telescopes replaced by AI and automobiles. I now want to discover where I can make the greatest impact. My current role at Toumetis matches your need for a Data Engineer; I have expert Python skills and experience working on data management for machine learning. My mathematics degree and modelling experience makes me a potential match for a Machine Learning role, albeit with some polishing up needed on neural networks. And my work on BRRISON and other sensing projects makes me a great match for a Software Engineer for sensors or scene interpretation.",
+
+    "I would love to meet and discuss how your needs match up with my experience, in order to find the perfect role for me. Please see my attached CV and contact me if you would like to schedule an interview."
+  ]
+}

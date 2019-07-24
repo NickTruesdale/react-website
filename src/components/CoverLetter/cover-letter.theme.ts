@@ -24,8 +24,8 @@ const overrides: Overrides = {
   MuiTypography: {
     h1: {
       textAlign: 'center',
-      fontSize: '24px',
-      paddingBottom: '8px',
+      fontSize: '20px',
+      paddingBottom: '6px',
       marginBottom: '4px',
       borderBottom: `2px solid ${palette.grey[700]}`
     },
@@ -39,12 +39,13 @@ const overrides: Overrides = {
       textAlign: 'justify',
       fontSize: '11px',
       fontWeight: 'bold',
+      padding: '8px 0',
       marginBottom: '11px',
       lineHeight: 1.4,
     },
     caption: {
       fontSize: '11px',
-      padding: '0 8px',
+      padding: '0 5px',
       marginBottom: '16px',
       lineHeight: 1.4,
     }

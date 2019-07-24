@@ -10,29 +10,26 @@ import Footer from './Footer';
 import Contact from './Contact';
 
 import styles from './cover-letter.styles';
-import resumeJson from 'assets/resume.json';
-import letterJson from './letters/microsoft-data-science.json';
 
 import { ResumeData, CoverLetterData } from 'models';
-
-const resume = resumeJson as ResumeData;
-const letter = letterJson as CoverLetterData;
 
 const formatDate = (date: string) => {
   return date ? format(new Date(date), 'D MMMM, YYYY') : 'Present';
 }
 
-interface Props extends WithStyles<typeof styles> {}
+interface Props extends WithStyles<typeof styles> {
+  resume: ResumeData;
+  letter: CoverLetterData;
+}
 
 const CoverLetterLayout: React.FC<Props> = props => {
-  const { classes } = props;
+  const { resume, letter } = props;
   return (
     <div>
       <Header personal={resume.personal} />
       <Typography variant="body1">{formatDate(letter.date)}</Typography>
       <Contact contact={letter.contact} />
       
-      <br />
       <Body content={letter} />
       
       <Footer personal={resume.personal} />

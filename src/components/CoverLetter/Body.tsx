@@ -11,7 +11,7 @@ interface Props extends WithStyles<typeof styles> {
 }
 
 const Body: React.FC<Props> = props => {
-  const { classes, content } = props;
+  const { content } = props;
   const { subject, salutation, paragraphs } = content;
 
   return (

@@ -11,13 +11,14 @@ interface Props extends WithStyles<typeof styles> {
 }
 
 const ContactInfo: React.FC<Props> = props => {
-  const { classes, contact } = props;
-  const { name, address1, address2, address3 } = contact;
+  const { contact } = props;
+  const { name, company, address1, address2, address3 } = contact;
 
   return (
     <div>
       <Typography variant="body1">
         <div>{name}</div>
+        <div>{company}</div>
         <div>{address1}</div>
         <div>{address2}</div>
         <div>{address3}</div>

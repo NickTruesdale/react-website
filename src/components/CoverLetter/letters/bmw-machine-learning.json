@@ -1,0 +1,20 @@
+{
+  "id": "bmw-machine-learning",
+  "name": "BMW - Machine Learning",
+  "contact": {
+    "name": "Christina Simon",
+    "nickname": "",
+    "company": "BMW AG",
+    "email": "",
+    "phone": "+49 89 382 17001",
+    "address1": "Taunusstraße 41",
+    "address2": "80807 München",
+    "address3": "Deutschland"
+  },
+  "date": "2019-07-15",
+  "subject": "Application for Senior Research Engineer in Machine Learning and Data Science",
+  "salutation": "Dear Ms. Simon,",
+  "paragraphs": [
+    "In a decade of learning and practicing engineering, I have found that working in diverse teams enriches not just the project, but me as a person. The desire to surround myself with smart, unique people - and to contribute my own unique skills and perspective - is a primary part of my dream to work abroad in Germany. The other goal is to find an exciting, innovative application for my programming and data science skills; I think BMW's technology research division is the perfect fit for both of these."
+  ]
+}
